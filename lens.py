@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def Point(x1,x2,x1l,x2l,ml): # Point lens of mass ml at x1l,x2l
     x1ml=(x1-x1l) # Distance along x axis of ray to lens position
     x2ml=(x2-x2l) # Distance along y axis of ray to lens position
